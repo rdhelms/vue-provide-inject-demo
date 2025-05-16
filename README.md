@@ -32,7 +32,7 @@ npm run dev
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Lint
 
 ```sh
 npm run lint
