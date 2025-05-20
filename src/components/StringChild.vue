@@ -3,7 +3,6 @@ import { inject, type Ref } from 'vue'
 
 const valFromAppParent = inject<Ref<string>>('valFromAppParent')
 const updateValFromAppParent = inject<() => void>('updateValFromAppParent')
-if (valFromAppParent) valFromAppParent.value = 'New thing'
 
 const valFromMyPlugin = inject('valFromMyPlugin')
 const updateValFromMyPlugin = inject<() => void>('updateValFromMyPlugin')
